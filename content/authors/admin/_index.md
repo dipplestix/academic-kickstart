@@ -61,10 +61,10 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: ScM Computer Science
+    institution: Brown University
+    date_start: 2022-09
+    date_end: 2024-05
     summary: |
       GPA: 3.8/4.0
 
