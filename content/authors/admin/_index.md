@@ -66,18 +66,16 @@ education:
     date_start: 2022-09-01
     date_end: 2024-05-31
     summary: |
-      GPA: 3.8/4.0
 
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BEng Electrical Engineering
+    institution: The Cooper Union for the Advancement of Science and Art 
+    date_start: 2005-09-01
+    date_end: 2009-05-31
     summary: |
-      GPA: 3.4/4.0
       
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
