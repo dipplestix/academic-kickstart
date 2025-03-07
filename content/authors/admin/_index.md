@@ -63,8 +63,8 @@ education:
       url: 'https://example.com'
   - area: ScM Computer Science
     institution: Brown University
-    date_start: 2022-09
-    date_end: 2024-05
+    date_start: 2022-09-01
+    date_end: 2024-05-31
     summary: |
       GPA: 3.8/4.0
 
