@@ -85,17 +85,17 @@ education:
       - Information Theory
       - Control Theory
 
-work:
-  - position: Lead Data Scientist
-    company_name: h2o.ai
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-08-01
-    date_end: 2023-08-31
-    summary: |2-
-      Responsibilities included:
-      - Leading various projects in finance and healthcare domains
-      - Deploying multi-armed bandit solutions for diverse clients and use cases
+# work:
+#   - position: Lead Data Scientist
+#     company_name: h2o.ai
+#     company_url: ''
+#     company_logo: ''
+#     date_start: 2016-08-01
+#     date_end: 2023-08-31
+#     summary: |2-
+#       Responsibilities included:
+#       - Leading various projects in finance and healthcare domains
+#       - Deploying multi-armed bandit solutions for diverse clients and use cases
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -118,11 +118,11 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Board Gaes
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Dogs
         description: ''
         percent: 100
         icon: cat
