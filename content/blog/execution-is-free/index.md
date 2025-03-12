@@ -2,6 +2,7 @@
 title: Execution is Free
 summary: How AI is making execution nearly free and shifting the premium toward idea generation
 date: 2024-07-05
+draft: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
