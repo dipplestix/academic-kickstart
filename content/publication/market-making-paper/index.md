@@ -1,16 +1,15 @@
 ---
-title: 'The Effect of Liquidity on the Spoofability of Financial Markets'
+title: 'Market Making with Learned Beta Policies'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Anri Gu
   - Yongzhao Wang
-  - admin
-  - Mithun Chakraborty
   - Rahul Savani
-  - Theodore L Turocy
+  - Anri Gu
+  - admin
+  - Theodore Turocy
   - Michael P Wellman
 
 date: '2024-11-14T00:00:00Z'
@@ -28,15 +27,15 @@ publication_types: ['paper-conference']
 publication: In *Proceedings of the 5th ACM International Conference on AI in Finance*
 publication_short: In *ICAIF*
 
-abstract: ''
+abstract: 'In market making, a market maker (MM) can concurrently place many buy and sell limit orders at various prices and volumes, resulting in a vast action space. To handle this large action space, beta policies were introduced, utilizing a scaled beta distribution to concisely represent the volume distribution of an MM's orders across different price levels. However, in these policies, the parameters of the scaled beta distributions are either fixed or adjusted only according to predefined rules based on the MM's inventory. As we show, this approach potentially limits the effectiveness of market-making policies and overlooks the significance of other market characteristics in a dynamic market. To address this limitation, we introduce a general adaptive MM based on beta policies by employing deep reinforcement learning (RL) to dynamically control the scaled beta distribution parameters and generate orders based on current market conditions.'
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Using deep reinforcement learning to dynamically control beta distribution parameters for market making policies.'
 
 tags:
   - Finance
-  - Market Manipulation
-  - Spoofing
+  - Market Making
+  - Reinforcement Learning
 
 # Display this page in the Featured widget?
 featured: false
@@ -46,7 +45,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3677052.3698634'
+url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3677052.3698623'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -81,4 +80,4 @@ slides: ""
 Click the _Cite_ button above to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
-This study investigates how market liquidity affects the vulnerability of financial markets to spoofing attacks - a form of market manipulation where traders place orders they intend to cancel to mislead other market participants. Through systematic agent-based simulations, we analyze the relationship between market liquidity conditions and the profitability of spoofing strategies. 
+This paper addresses the challenge of efficiently managing a large action space in market making by using learned beta policies. Market makers traditionally place multiple buy and sell limit orders at various prices, creating a vast decision space. Our approach uses deep reinforcement learning to dynamically adjust beta distribution parameters that control order placement based on current market conditions, improving upon previous methods that used fixed parameters or simple inventory-based adjustments. 
