@@ -58,4 +58,3 @@ features:
     enable: true
   privacy_pack:
     enable: false
-  noreadingtime: true
