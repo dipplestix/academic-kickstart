@@ -6,7 +6,9 @@ date: 2025-03-26
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: ''
+  focal_point: ''
+  preview_only: false
 
 authors:
   - admin
