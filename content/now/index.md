@@ -18,11 +18,12 @@ tags:
 
 Welcome to my "Now" page 👋
 
+
 {{< toc mobile_only=true is_open=true >}}
 
 ## Current Research Focus
 
-I'm currently working on several projects at the intersection of AI, finance, and multi-agent systems:
+I'm currently working on several projects at the intersection of AI, transformers, LLMs, and multi-agent systems:
 
 ### 1. Generalizable TRON Agents with Transformer Backbones
 
