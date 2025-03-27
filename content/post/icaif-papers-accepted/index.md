@@ -22,20 +22,17 @@ I'm excited to announce that our research team has had **three papers** accepted
 
 ## The Papers
 
-1. **The Effect of Liquidity on the Spoofability of Financial Markets**  
-   *Anri Gu, Yongzhao Wang, Chris Mascioli, Mithun Chakraborty, Rahul Savani, Theodore L Turocy, Michael P Wellman*  
-   
-   This study investigates how market liquidity affects the vulnerability of financial markets to spoofing attacks - a form of market manipulation where traders place orders they intend to cancel to mislead other market participants.
-
-2. **Market Making with Learned Beta Policies**  
-   *Yongzhao Wang, Rahul Savani, Anri Gu, Chris Mascioli, Theodore Turocy, Michael Wellman*  
-   
-   In this paper, we introduce a general adaptive market maker based on beta policies by employing deep reinforcement learning to dynamically control the scaled beta distribution parameters and generate orders based on current market conditions.
-
-3. **A Financial Market Simulation Environment for Trading Agents Using Deep Reinforcement Learning**  
+1. **A Financial Market Simulation Environment for Trading Agents Using Deep Reinforcement Learning**  
    *Chris Mascioli, Anri Gu, Yongzhao Wang, Mithun Chakraborty, Michael Wellman*  
    
-   We present PyMarketSim, a financial market simulation environment designed for training and evaluating trading agents using deep reinforcement learning, incorporating key elements such as private valuations, asymmetric information, and a flexible limit order book mechanism.
+
+2. **The Effect of Liquidity on the Spoofability of Financial Markets**  
+   *Anri Gu, Yongzhao Wang, Chris Mascioli, Mithun Chakraborty, Rahul Savani, Theodore L Turocy, Michael P Wellman*  
+   
+
+3. **Market Making with Learned Beta Policies**  
+   *Yongzhao Wang, Rahul Savani, Anri Gu, Chris Mascioli, Theodore Turocy, Michael Wellman*  
+   
 
 ## About ICAIF
 
