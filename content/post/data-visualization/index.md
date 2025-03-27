@@ -1,9 +1,11 @@
 ---
 title: 📈 Communicate your results effectively with the best data visualizations
+subtitle: Learn how to blog in Academic using Jupyter notebooks
 summary: Use popular tools such as Plotly, Mermaid, and data frames.
 date: 2023-10-25
 authors:
   - admin
+draft: true
 tags:
   - Hugo
   - Hugo Blox

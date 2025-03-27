@@ -1,7 +1,8 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
-date: 2023-10-23
+title: 📊 Project management or knowledge base from the future
+summary: Introducing Happy Notist, a new Hugo Blox Builder template for creating a knowledge base for your personal or team projects.
+date: 2023-10-26
+draft: true
 authors:
   - admin
 tags:

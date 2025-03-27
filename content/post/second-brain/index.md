@@ -1,7 +1,8 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: 🧠 Second Brain Template - Turn your website into a second brain
+summary: Turn your website into a digital brain to restore focus, reduce daily stress and feel in control again.
+date: 2023-10-24
+draft: true
 authors:
   - admin
 tags:

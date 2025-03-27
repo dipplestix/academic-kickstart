@@ -1,7 +1,8 @@
 ---
-title: 👩🏼‍🏫 Teach academic courses
-summary: Embed videos, podcasts, code, LaTeX math, and even test students!
-date: 2023-10-24
+title: 👩‍🏫 Teach courses or lead workshops
+summary: Teach courses, lead workshops, or host live or recorded events.
+date: 2023-10-22
+draft: true
 math: true
 authors:
   - admin
