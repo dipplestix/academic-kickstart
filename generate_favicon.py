@@ -2,8 +2,8 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 def create_favicon():
-    # Create a 32x32 image with a transparent background
-    size = 32
+    # Create a 512x512 image with a transparent background
+    size = 512
     image = Image.new('RGBA', (size, size), (0, 0, 0, 0))
     draw = ImageDraw.Draw(image)
     
@@ -13,7 +13,7 @@ def create_favicon():
     
     # Try to use a system font, fallback to default if not available
     try:
-        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 16)
+        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 256)
     except:
         font = ImageFont.load_default()
     
@@ -27,14 +27,14 @@ def create_favicon():
     y = (size - text_height) // 2
     draw.text((x, y), text, font=font, fill=text_color)
     
-    # Save as PNG in multiple sizes
-    image.save('static/images/favicon-32x32.png')
-    image.save('static/images/favicon-16x16.png')
+    # Save as PNG in assets/media
+    image.save('assets/media/icon.png')
     
-    # Create a larger version for better visibility
-    large_size = 192
-    large_image = image.resize((large_size, large_size), Image.Resampling.LANCZOS)
-    large_image.save('static/images/favicon-192x192.png')
+    # Create smaller versions for favicon
+    sizes = [32, 16]
+    for small_size in sizes:
+        small_image = image.resize((small_size, small_size), Image.Resampling.LANCZOS)
+        small_image.save(f'static/images/favicon-{small_size}x{small_size}.png')
     
     # Convert to ICO with multiple sizes
     img = Image.open('static/images/favicon-32x32.png')

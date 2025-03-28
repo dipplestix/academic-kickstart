@@ -10,7 +10,7 @@ baseURL: 'https://example.com/'
 
 # Site icon
 favicon: '/favicon.ico'
-icon: '/images/favicon-192x192.png'
+icon: '/media/icon.png'
 
 ############################
 ## LANGUAGE
