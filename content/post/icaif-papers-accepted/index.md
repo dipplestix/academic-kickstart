@@ -1,7 +1,7 @@
 ---
 title: 🎉 Three Papers Accepted at ICAIF 2024
 summary: Our research team has three papers accepted at the 5th ACM International Conference on AI in Finance
-date: 2024-07-05
+date: 2024-10-06
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
