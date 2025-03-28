@@ -8,6 +8,10 @@ title: Chris Mascioli
 # Website URL
 baseURL: 'https://example.com/'
 
+# Site icon
+favicon: '/favicon.ico'
+icon: '/images/favicon-192x192.png'
+
 ############################
 ## LANGUAGE
 ############################

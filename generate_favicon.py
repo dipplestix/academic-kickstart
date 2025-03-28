@@ -27,12 +27,18 @@ def create_favicon():
     y = (size - text_height) // 2
     draw.text((x, y), text, font=font, fill=text_color)
     
-    # Save as PNG
-    image.save('static/favicon/icon.png')
+    # Save as PNG in multiple sizes
+    image.save('static/images/favicon-32x32.png')
+    image.save('static/images/favicon-16x16.png')
     
-    # Convert to ICO
-    img = Image.open('static/favicon/icon.png')
-    img.save('static/favicon/favicon.ico', format='ICO')
+    # Create a larger version for better visibility
+    large_size = 192
+    large_image = image.resize((large_size, large_size), Image.Resampling.LANCZOS)
+    large_image.save('static/images/favicon-192x192.png')
+    
+    # Convert to ICO with multiple sizes
+    img = Image.open('static/images/favicon-32x32.png')
+    img.save('static/favicon.ico', format='ICO', sizes=[(16,16), (32,32)])
 
 if __name__ == '__main__':
     create_favicon() 

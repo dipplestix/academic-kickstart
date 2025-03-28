@@ -8,9 +8,6 @@ appearance:
   mode: system
   color: emerald
 
-# Site icon
-favicon: icon.png
-
 # SEO
 marketing:
   seo:
