@@ -121,11 +121,11 @@ skills:
       - name: Board Games
         description: ''
         percent: 60
-        icon: chess
+        icon: custom/chess
       - name: Dogs
         description: ''
         percent: 100
-        icon: cat
+        icon: custom/dog
       - name: Photography
         description: ''
         percent: 80
