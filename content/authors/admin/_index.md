@@ -125,7 +125,7 @@ skills:
       - name: Dogs
         description: ''
         percent: 100
-        icon: custom/dog
+        icon: dog
       - name: Photography
         description: ''
         percent: 80
