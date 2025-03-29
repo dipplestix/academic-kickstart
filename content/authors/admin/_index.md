@@ -161,4 +161,4 @@ awards:
 
 ## About Me
 
-Chris Mascioli is a PhD student in the [Strategic Reasoning Group](https://strategicreasoning.org/), focusing on reinforcement learning, neural network architectures, and artificial reasoning.
+Chris Mascioli is a PhD student in the [Strategic Reasoning Group](https://strategicreasoning.org/), advised by [Professor Michael Wellman](https://strategicreasoning.org/michael-p-wellman/), focusing on reinforcement learning, neural network architectures, and artificial reasoning.
