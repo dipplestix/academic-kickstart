@@ -25,6 +25,9 @@ main:
   - name: Blog
     url: blog/
     weight: 40
+  - name: Photography
+    url: photography/
+    weight: 45
   - name: Now
     url: now/
     weight: 50
