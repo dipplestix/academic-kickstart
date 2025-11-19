@@ -27,33 +27,32 @@ Welcome to my "Now" page 👋
 
 I'm currently working on several projects at the intersection of AI, transformers, LLMs, and multi-agent systems:
 
-### 1. Generalizable TRON Agents with Transformer Backbones
-
-I'm extending [PyMarketSim](https://github.com/dipplestix/pymarketsim) and the TRON (Trained Response Order Network) agent architecture to incorporate transformer backbones. The goal is to create agents that can generalize across different market environments, rather than requiring a separate TRON agent to be trained for each specific market configuration.
-
-This research aims to significantly reduce the training overhead while enabling more robust trading strategies that can adapt to changing market conditions. By leveraging the contextual understanding capabilities of transformers, these agents should be able to recognize patterns across different market scenarios.
-
-### 2. LLMs as Bargaining Agents
+### 1. LLMs as Bargaining Agents
 
 I'm investigating the use of Large Language Models (LLMs) as bargaining agents in strategic interactions. This work includes:
 
 - Developing frameworks to evaluate LLM performance in bargaining scenarios
-- Testing different prompting strategies to improve negotiation capabilities
 - Comparing LLM performance to traditional game-theoretic equilibrium predictions
 - Exploring how LLMs might be used in automated negotiation systems
+- How finetuning an LLM to match solver output generalizes to other bargaining scenarios
 
-This research has applications in market design, automated negotiation systems, and understanding the strategic capabilities of foundation models.
+
+### 2. FairFormer
+
+I'm working on the FairFormer architecture which uses a transformer to solve fair division. This work includes
+
+- Developing a novel transformer architecture specialized for fair division
+- Expanding it to expanded scenarios -- like budget-constrained
+
 
 ### 3. Mechanism Design Approaches to Mixture of Experts
 
-I'm developing new approaches to Mixture of Experts (MoE) architectures using ideas from mechanism design and economics. This interdisciplinary work explores:
+I'm developing new approaches to Mixture of Experts (MoE) architectures using ideas from mechanism design and economics. This work explores:
 
 - Incentive-compatible routing mechanisms for expert selection
 - Market-based approaches to expert specialization and load balancing
-- Applying concepts from social choice theory to improve expert consensus methods
-- Creating more efficient and effective models by drawing on economic principles
 
-This research aims to address current inefficiencies in MoE architectures by bringing in theoretical insights from decades of research in economic mechanism design.
+This research aims to address current inefficiencies in MoE architectures by bringing in insights from economic mechanism design.
 
 ## Why a "Now" Page?
 
@@ -66,6 +65,7 @@ Key benefits:
 
 ## Recent Updates
 
+- **November 2025**: Updated with current research projects
 - **March 2025**: Updated with current research projects
 - **March 2025**: Initial creation of Now page
 
@@ -73,4 +73,4 @@ Key benefits:
 
 *This page was inspired by [Derek Sivers' now page movement](https://nownownow.com/about).*
 
-*Last updated: March 26, 2025* 
+*Last updated: November 19, 2025* 
