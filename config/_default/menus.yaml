@@ -22,12 +22,14 @@ main:
   - name: Projects
     url: projects/
     weight: 30
-  - name: Blog
-    url: blog/
-    weight: 40
-  - name: Photography
-    url: photography/
-    weight: 45
+  # Temporarily hide Blog tab
+  # - name: Blog
+  #   url: blog/
+  #   weight: 40
+  # Temporarily hide Photography tab
+  # - name: Photography
+  #   url: photography/
+  #   weight: 45
   - name: Now
     url: now/
     weight: 50
