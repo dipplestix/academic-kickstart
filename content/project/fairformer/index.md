@@ -7,8 +7,11 @@ tags:
   - Transformers
   - Fairness
   - Optimization
-image: ff.png
+image:
+  filename: ff.png
+  focal_point: Smart
 ---
 
 FairFormer explores how transformer architectures can be adapted for fair division and allocation problems.
-It provides a research codebase, pretrained checkpoints, and reproducible experiments for testing fairness constraints alongside utility optimization.
+It provides a research codebase, pretrained checkpoints, and reproducible experiments for testing fairness constraints alongside
+utility optimization.
