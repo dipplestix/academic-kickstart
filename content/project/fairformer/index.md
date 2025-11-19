@@ -1,7 +1,7 @@
 ---
 title: FairFormer
 summary: Transformer-based fair allocation model with controllable fairness constraints.
-date: 2024-05-20
+date: 2025-11-02
 external_link: https://github.com/dipplestix/fair-allocation-transformer
 tags:
   - Transformers
